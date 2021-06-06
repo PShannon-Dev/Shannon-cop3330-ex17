@@ -1,0 +1,22 @@
+@startuml
+class App
+{
+    'alc, weight, hours,gender
+    input()
+
+}
+
+App<|--BACLevel
+
+class BACLevel
+{
+    +alcoholConsumed
+    +weight
+    +hours
+    +gender
+    ratio
+    legalContent =.08
+
+
+}
+@enduml
